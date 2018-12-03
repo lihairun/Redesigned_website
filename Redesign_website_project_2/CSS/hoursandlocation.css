@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav_bar {
+    position: absolute;
+    width: 1200px;
+    height: 150px;
+    left: 0;
+    top: 0;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.nav_icon{
+    text-decoration: none;
+    color: black;
+}
+
+.nav_selected{
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    left: 310px;
+    top: 145px;
+
+    background: #2B23CC;
+}
+
+h2{
+    font-family: bodoni-urw, serif;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.menu{
+    position: absolute;
+    width: 37px;
+    height: 15px;
+    left: 130px;
+    top: 73px;
+}
+
+.hoursandlocation{
+    position: absolute;
+    width: 120px;
+    height: 15px;
+    left: 290px;
+    top: 73px;
+}
+
+.onlinestore{
+    position: absolute;
+    width: 92px;
+    height: 15px;
+    left: 804px;
+    top: 73px;
+}
+
+.about{
+    position: absolute;
+    width: 43px;
+    height: 15px;
+    left: 1029px;
+    top: 74px;
+}
+
+.als_logo{
+    position: absolute;
+    /*left: 572.5px;*/
+    /*top: 25px;*/
+    margin: 30px 572px;
+}
+
+.back_blue_1, .front_white_1{
+    left: 110px;
+}
+
+.back_blue_2, .front_white_2{
+    left: 310px;
+}
+
+.back_blue_3, .front_white_3{
+    left: 810px;
+}
+
+.back_blue_4, .front_white_4{
+    left: 1010px;
+}
+
+.back_blue_1, .back_blue_2, .back_blue_3, .back_blue_4{
+    width: 80px;
+    height: 150px;
+    background-color: #2B23CC;
+    position: absolute;
+}
+
+.front_white_1, .front_white_2, .front_white_3, .front_white_4{
+    width: 80px;
+    height: 150px;
+    background-color: #FFFFFF;
+    position: absolute;
+    transition: height 0.35s ease;
+}
+
+.front_white_1:hover, .front_white_2:hover, .front_white_3:hover, .front_white_4:hover{
+    height: 145px;
+}
+
+.body{
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+    left: 0px;
+    top: 150px;
+
+    background: #F3F3F3;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.map{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.main_text{
+    font-family: bodoni-urw, serif;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 12px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.location_1{
+    position: absolute;
+    width: 380px;
+    height: 80px;
+    left: 710px;
+    top: 60px;
+}
+
+.location_2{
+    position: absolute;
+    width: 380px;
+    height: 80px;
+    left: 710px;
+    top: 160px;
+}
+
+.hours{
+    position: absolute;
+    width: 380px;
+    height: 153px;
+    left: 710px;
+    top: 287px;
+}
+
+.facebook_icon{
+    position: absolute;
+    left: 710px;
+    top: 515px;
+}
+
+.twitter_icon{
+    position: absolute;
+    left: 827px;
+    top: 515px;
+
+}
+
+.instagram_icon{
+    position: absolute;
+    left: 943px;
+    top: 515px;
+}
+
+.yelp_icon{
+    position: absolute;
+    left: 1060px;
+    top: 515px;
+}
+
+.footer{
+    position: absolute;
+    width: 1200px;
+    height: 50px;
+    left: 0px;
+    top: 750px;
+    background: #2B23CC;
+
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.text_Bodoni_white{
+    font-family: bodoni-urw, serif;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer_information{
+    padding-top: 20px;
+}

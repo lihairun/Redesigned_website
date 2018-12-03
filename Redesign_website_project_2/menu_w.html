@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>al's BREAKFAST - The Best Breakfast in Minneapolis</title>
+
+    <link rel="stylesheet" type="text/css" href="CSS/menu/menu_w.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zgs0gxp.css">
+    <link rel="shortcut icon" href="pics/favicon.ico" /> <!-- This is favicon -->
+
+</head>
+<body>
+
+<nav class="nav_bar">
+    <a class="nav_icon" href="menu.html"><h2 class="menu">MENU</h2></a>
+    <a class="nav_icon" href="hoursandlocation.html"><h2 class="hoursandlocation">HOURS & LOCATION</h2></a>
+    <a class="nav_icon" href="onlinestore.html"><h2 class="onlinestore">ONLINE STORE</h2></a>
+    <a class="nav_icon" href="about.html"><h2 class="about">ABOUT</h2></a>
+
+    <a href="index.html"><div class="als_logo"><img src="pics/logos/web_icons-03.png" width=55px alt="al's logo"/></div></a>
+
+    <div class="nav_selected"></div>
+
+    <a class="nav_icon" href="hoursandlocation.html"><div class="back_blue_2"></div><div class="front_white_2"></div></a>
+    <a class="nav_icon" href="onlinestore.html"><div class="back_blue_3"></div><div class="front_white_3"></div></a>
+    <a class="nav_icon" href="about.html"><div class="back_blue_4"></div><div class="front_white_4"></div></a>
+</nav> <!--end of nav bar-->
+
+<div class="body">
+    <div class="menu_heading_div">
+        <a class="" href="menu.html"><h3 class="SS">Special Scrambles</h3></a>
+        <a class="" href="menu_s.html"><h3 class="S">Scrambles</h3></a>
+        <a class="" href="menu_ed.html"><h3 class="ED">Egg Dishes</h3></a>
+        <a class="" href="menu_o.html"><h3 class="O">Omelets</h3></a>
+        <a class="" href="menu_sa.html"><h3 class="SA">Savory Additions</h3></a>
+        <a class="" href="menu_p.html"><h3 class="P">Pancakes</h3></a>
+        <a class="" href="menu_w.html"><h3 class="W highlight_h3">Waffles, etc.s</h3></a>
+        <a class="" href="menu_sides.html"><h3 class="Sides">Sides</h3></a>
+        <a class="" href="menu_b.html"><h3 class="B">Beverages</h3></a>
+    </div>
+
+    <!--<div class="filter_3"></div>-->
+
+    <div class="menu_body_div">
+        <div id="menu_body_1">
+            <p class="menu_body_text">
+                <span class="Helvetica_bold">Wally Waffle</span><br>
+                A Belgian Waffle with Walnuts<br><br>
+                <span class="blue_text">$7.00</span><br><br><br>
+
+                <span class="Helvetica_bold">Bacon Waffle</span><br>
+                A Belgian Waffle with Bacon Bits inside<br><br>
+                <span class="blue_text">$8.00</span><br><br><br>
+            </p>
+        </div>
+
+        <div id="menu_body_2">
+            <p class="menu_body_text">
+                <span class="Helvetica_bold">Plain Waffle</span><br>
+                A Belgian Waffle<br><br>
+                <span class="blue_text">$5.50</span><br><br><br>
+
+                <span class="Helvetica_bold">Waffle Suzette</span><br>
+                A Belgian Waffle with Sour Cream and Strawberries<br><br>
+                <span class="blue_text">$7.50</span><br><br><br>
+            </p>
+        </div>
+
+        <div id="menu_body_3">
+            <p class="menu_body_text">
+                <span class="Helvetica_bold">French Toast</span><br>
+                Two Slices of Potato Bread in a Vanilla/Almond scented<br>Batter<br><br>
+                <span class="blue_text">$4.50</span><br><br><br>
+
+                <span class="Helvetica_bold">Pure Minnesota Maple Syrup</span><br><br>
+                <span class="blue_text">Half: $1.00, Full: $1.50</span><br><br><br>
+            </p>
+        </div>
+    </div>
+</div> <!--end of body-->
+
+<footer class="footer">
+    <p class="footer_information text_Bodoni_white">612-331-9991 / alison@alsbreakfastmpls.com / 413 14th St SE , Minneapolis, MN 55414</p>
+</footer> <!--end of footer-->
+
+<script>
+    $(document).ready(function () {
+// Add smooth scrolling to all links
+        $("a").on('click', function (event) {
+
+// Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+// Prevent default anchor click behavior
+                event.preventDefault();
+
+// Store hash
+                var hash = this.hash;
+
+// Using jQuery's animate() method to add smooth page scroll
+// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function () {
+
+// Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+</script>
+
+</body>
+</html>

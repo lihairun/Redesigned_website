@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav_bar {
+    position: absolute;
+    width: 1200px;
+    height: 150px;
+    left: 0;
+    top: 0;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.nav_icon{
+    text-decoration: none;
+    color: black;
+}
+
+.nav_selected{
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    left: 810px;
+    top: 145px;
+
+    background: #2B23CC;
+}
+
+h2{
+    font-family: bodoni-urw, serif;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.menu{
+    position: absolute;
+    width: 37px;
+    height: 15px;
+    left: 130px;
+    top: 73px;
+}
+
+.hoursandlocation{
+    position: absolute;
+    width: 120px;
+    height: 15px;
+    left: 290px;
+    top: 73px;
+}
+
+.onlinestore{
+    position: absolute;
+    width: 92px;
+    height: 15px;
+    left: 804px;
+    top: 73px;
+}
+
+.about{
+    position: absolute;
+    width: 43px;
+    height: 15px;
+    left: 1029px;
+    top: 74px;
+}
+
+.als_logo{
+    position: absolute;
+    /*left: 572.5px;*/
+    /*top: 25px;*/
+    margin: 30px 572px;
+}
+
+.back_blue_1, .front_white_1{
+    left: 110px;
+}
+
+.back_blue_2, .front_white_2{
+    left: 310px;
+}
+
+.back_blue_3, .front_white_3{
+    left: 810px;
+}
+
+.back_blue_4, .front_white_4{
+    left: 1010px;
+}
+
+.back_blue_1, .back_blue_2, .back_blue_3, .back_blue_4{
+    width: 80px;
+    height: 150px;
+    background-color: #2B23CC;
+    position: absolute;
+}
+
+.front_white_1, .front_white_2, .front_white_3, .front_white_4{
+    width: 80px;
+    height: 150px;
+    background-color: #FFFFFF;
+    position: absolute;
+    transition: height 0.35s ease;
+}
+
+.front_white_1:hover, .front_white_2:hover, .front_white_3:hover, .front_white_4:hover{
+    height: 145px;
+}
+
+.body{
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+    left: 0px;
+    top: 150px;
+
+    background: #F3F3F3;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+a:link{
+    text-decoration: none;
+    color: White;
+}
+
+a:active{
+    text-decoration: none;
+    color: #2B23CC;
+}
+
+h3{
+    font-family: bodoni-urw, serif;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 12px;
+    color: black;
+}
+
+.onlinestore_heading_div{
+    position: absolute;
+    width: 980px;
+    height: 20px;
+    left: 110px;
+    top: 60px;
+}
+
+.shoppingbag_div{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1170px;
+    top: 60px;
+    background-color: rgba(43, 35, 204, 0.5);
+    transition: left 1s, width 1s, background-color 1s;
+}
+
+.shoppingbag_div:hover {
+    width: 75px;
+    background-color: #2B23CC;
+    left: 1125px
+}
+
+.baby{
+    float: left;
+}
+
+.hats{
+    float: left;
+    position: absolute;
+    left: 200px;
+}
+
+.tops{
+    float: left;
+    position: absolute;
+    left: 400px;
+}
+
+.accessories{
+    float: left;
+    position: absolute;
+    left: 600px;
+}
+
+.gifts{
+    float: left;
+    position: absolute;
+    left: 800px;
+}
+
+.filter_2{
+    position: absolute;
+    width: 980px;
+    height: 380px;
+    left: 110px;
+    top: 160px;
+    background: linear-gradient(180deg, rgba(243, 243, 243, 0) 75%, #F3F3F3 100%);
+    z-index: 1;
+    pointer-events:none;
+}
+
+.onlinestore_body_div{
+    position: absolute;
+    width: 980px;
+    height: 380px;
+    left: 110px;
+    top: 160px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.category_1_div{
+    width: 180px;
+    height: 380px;
+    display: inline-block;
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
+
+.category_2_div, .category_3_div, .category_4_div, .category_5_div{
+    width: 180px;
+    height: 380px;
+    display: inline-block;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    margin-left: 15px;
+}
+
+.bottomitems_div{
+    margin-top: 50px;
+}
+
+p{
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #c4c4c4;
+    word-break: normal;
+    /*background-color: #e5e5e5;*/
+}
+
+select{
+    font-family: bodoni-urw, serif;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 9px;
+    display: inline;
+
+    width: 75px;
+    height: 20px;
+}
+
+input{
+    height: 20px;
+    width: 25px;
+}
+
+
+.info_div{
+    margin-top: 10px;
+    width: 182px;
+    font-family: bodoni-urw, serif;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 9px;
+    color: #000000;
+    word-break: normal;
+}
+
+.size_div{
+    display: inline;
+}
+
+.number_div{
+    display: inline;
+}
+
+/*.size_div{*/
+    /*position: absolute;*/
+    /*top: 305px;*/
+    /*left: 25px;*/
+/*}*/
+
+/*.number_div{*/
+    /*position: absolute;*/
+    /*top: 305px;*/
+    /*left: 130px;*/
+/*}*/
+
+.addtocart_div{
+    width: 180px;
+    height: 30px;
+    background: #2B23CC;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 6px;
+    color: #FFFFFF;
+    padding-top: 9px;
+    letter-spacing: 3px;
+    margin-top: 15px;
+}
+
+.footer{
+    position: absolute;
+    width: 1200px;
+    height: 50px;
+    left: 0px;
+    top: 750px;
+    background: #2B23CC;
+
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.text_Bodoni_white{
+    font-family: bodoni-urw, serif;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer_information{
+    padding-top: 20px;
+}

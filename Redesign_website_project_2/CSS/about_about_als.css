@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav_bar {
+    position: absolute;
+    width: 1200px;
+    height: 150px;
+    left: 0;
+    top: 0;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.nav_icon{
+    text-decoration: none;
+    color: black;
+}
+
+.nav_selected{
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    left: 1010px;
+    top: 145px;
+
+    background: #2B23CC;
+}
+
+h2{
+    font-family: bodoni-urw, serif;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.menu{
+    position: absolute;
+    width: 37px;
+    height: 15px;
+    left: 130px;
+    top: 73px;
+}
+
+.hoursandlocation{
+    position: absolute;
+    width: 120px;
+    height: 15px;
+    left: 290px;
+    top: 73px;
+}
+
+.onlinestore{
+    position: absolute;
+    width: 92px;
+    height: 15px;
+    left: 804px;
+    top: 73px;
+}
+
+.about{
+    position: absolute;
+    width: 43px;
+    height: 15px;
+    left: 1029px;
+    top: 74px;
+}
+
+.als_logo{
+    position: absolute;
+    /*left: 572.5px;*/
+    /*top: 25px;*/
+    margin: 30px 572px;
+}
+
+.back_blue_1, .front_white_1{
+    left: 110px;
+}
+
+.back_blue_2, .front_white_2{
+    left: 310px;
+}
+
+.back_blue_3, .front_white_3{
+    left: 810px;
+}
+
+.back_blue_1, .back_blue_2, .back_blue_3{
+    width: 80px;
+    height: 150px;
+    background-color: #2B23CC;
+    position: absolute;
+}
+
+.front_white_1, .front_white_2, .front_white_3{
+    width: 80px;
+    height: 150px;
+    background-color: #FFFFFF;
+    position: absolute;
+    transition: height 0.35s ease;
+}
+
+.front_white_1:hover, .front_white_2:hover, .front_white_3:hover{
+    height: 145px;
+}
+
+.body{
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+    left: 0;
+    top: 150px;
+
+    background: #F3F3F3;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+h3{
+    font-family: bodoni-urw, serif;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 12px;
+    color: #c4c4c4;
+}
+
+.highlight_h3{
+    color: #2b23cc;
+}
+
+.first_visit{
+    position: absolute;
+    width: 47px;
+    height: 15px;
+    left: 110px;
+    top: 60px;
+}
+
+.about_story{
+    position: absolute;
+    width: 52px;
+    height: 15px;
+    left: 426px;
+    top: 60px;
+}
+
+.history_story{
+    position: absolute;
+    width: 38px;
+    height: 15px;
+    left: 746px;
+    top: 60px;
+}
+
+.contact_info{
+    position: absolute;
+    width: 38px;
+    height: 15px;
+    left: 1053px;
+    top: 60px;
+}
+
+h4{
+    font-family: bodoni-urw, serif;
+    font-weight: 800;
+    line-height: normal;
+    font-size: 24px;
+    color: #000000;
+}
+
+.story_title{
+    position: absolute;
+    width: 680px;
+    height: 70px;
+    left: 110px;
+    top: 158px;
+}
+
+.story_body_div{
+    position: absolute;
+    width: 680px;
+    height: 280px;
+    left: 110px;
+    top: 260px;
+}
+
+.story_body_text{
+    font-family: bodoni-urw, serif;
+    line-height: normal;
+    font-size: 10px;
+    color: #000000;
+}
+
+.story_pic{
+    position: absolute;
+    width: 390px;
+    height: 380px;
+    left: 810px;
+    top: 160px;
+}
+
+.footer{
+    position: absolute;
+    width: 1200px;
+    height: 50px;
+    left: 0px;
+    top: 750px;
+    background: #2B23CC;
+
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.text_Bodoni_white{
+    font-family: bodoni-urw, serif;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer_information{
+    padding-top: 20px;
+}
