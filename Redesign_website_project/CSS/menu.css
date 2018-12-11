@@ -235,7 +235,7 @@ h3:hover{
     width: 282px;
     height: 380px;
     overflow-x:hidden;
-    overflow-y:scroll;
+    overflow-y:hidden;
 }
 
 #menu_body_2, #menu_body_3, #menu_body_4, #menu_body_5, #menu_body_6, #menu_body_7, #menu_body_8, #menu_body_9{
